@@ -1,0 +1,53 @@
+
+
+h1{
+color:black;
+padding: 30px;
+margin: 20px;
+}   
+*{
+border:solid
+}
+
+
+.Header{
+color:whitesmoke;
+background-color: palevioletred ;
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+}
+
+.A{
+color:lightseagreen;  
+display:flex;
+flex-wrap:wrap;
+margin: 30px;
+padding: 10px;
+}
+
+//link opacity
+.A p{
+opacity:0.5
+}
+.A:hover p{
+opacity:1
+}
+
+//image opacity
+.A img{
+opacity: 1;
+}
+.A:hover img{
+opacity: 0.5
+}
+
+body{
+    background-color: #a97235;
+}
+a:link{
+color:purple;
+}
+a:visited{
+color:white;
+}
